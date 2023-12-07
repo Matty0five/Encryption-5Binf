@@ -5,7 +5,7 @@ class Main {
     Vigenere vigenere = new Vigenere(13, 25, 13, 25, matrice);
     Thread runner = new Thread(vigenere);
     runner.start();
-    System.out.println("Matrice popolata.");
+    System.out.println("La matrice è stata popolata.");
     matrice.stampa();
   }
 }
