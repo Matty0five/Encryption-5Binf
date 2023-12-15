@@ -16,7 +16,7 @@ class Main {
     for(Thread t: runners){
       t.start();
     }
-    System.out.println("La matrice è stata popolata.");
+    System.out.println("La matrice è stata popolata!");
     // matrice.stampa();
     
     System.out.print("Inserisci il testo da cifrare: ");
