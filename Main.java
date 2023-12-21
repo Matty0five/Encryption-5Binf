@@ -4,7 +4,7 @@ class Main {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     
-    System.out.println("Cifriamo il nostro testo e trasformiamolo in un testo segreto!");
+    System.out.println("Cifriamo il nostro testo e trasformiamolo in un testo segreto");
     
     System.out.print("Inserisci la chiave di cifratura: ");
     Matrice matrice = new Matrice(scanner.nextLine().toUpperCase());
